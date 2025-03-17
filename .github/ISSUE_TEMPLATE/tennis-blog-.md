@@ -1,6 +1,6 @@
 ---
-name: Tennis blog initial setup
-about: boilerplates for tennis blog
+name: 'Tennis blog '
+about: Tennis players arrange time to play
 title: ''
 labels: ''
 assignees: ''
