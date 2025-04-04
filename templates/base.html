@@ -40,8 +40,8 @@
       <div class="container-fluid">
         <a class="navbar-brand" href="{% url 'home' %}"
           ><span class="brand"
-            >c<span class="red-o">o</span>de<span class="thin"
-              >|star</span
+            >Te<span class="green-nn">nn</span>is<span class="thin"
+              >|Blog</span
             ></span
           ></a
         >
@@ -62,14 +62,12 @@
               <a
                 class="nav-link {% if request.path == home_url %}active{% endif %}"
                 aria-current="page"
-                href="#"
+                href="{% url 'home' %}"
                 >Home</a
               >
             </li>
           </ul>
-          <span class="navbar-text text-muted">
-            adventures of a software developer
-          </span>
+          <span class="navbar-text text-muted"> Adventures of Eyongtarh </span>
         </div>
       </div>
     </nav>
