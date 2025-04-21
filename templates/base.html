@@ -39,19 +39,13 @@
               <a class="nav-link {% if request.path == home_url %}
                   active
                   page
-                {% endif %}"
-                href="{% url 'home' %}">
-                Home
-              </a>
+                {% endif %}" href="{% url 'home' %}">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link {% if request.path == about_url %}
                   active
                   page
-                {% endif %}"
-                href="{% url 'about' %}">
-                About
-              </a>
+                {% endif %}" href="{% url 'about' %}">About</a>
             </li>
             {% if user.is_authenticated %}
               <li class="nav-item">
