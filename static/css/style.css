@@ -1,16 +1,16 @@
 body {
-  background-color: #f9fafc;
+  background-color: #F9FAFC;
 }
 
 .brand {
   font-family: Lato, sans-serif;
   font-size: 1.4rem;
   font-weight: 700;
-  color: #4a4a4f;
+  color: #4A4A4F;
 }
 
 .green-nn {
-  color: green;
+  color: #08b731;
 }
 
 .thin {
@@ -26,7 +26,7 @@ body {
 }
 
 .main-bg {
-  background-color: #f9fafc;
+  background-color: #F9FAFC;
 }
 
 .card {
@@ -91,6 +91,11 @@ body {
   z-index: 100;
 }
 
+
+.profile-image {
+  width: 60%;
+}
+
 .post-link {
   text-decoration: none;
   color: #445261;
@@ -98,7 +103,7 @@ body {
 
 .post-link:hover,
 .page-link {
-  color: #e84610;
+  color: #E84610;
 }
 
 .post-title {
@@ -120,11 +125,11 @@ body {
 .btn-signup:hover,
 .btn-signup:active {
   background-color: #fff;
-  color: #23bbbb;
+  color: #23BBBB;
 }
 
 .link {
-  color: #23bbbb;
+  color: #23BBBB;
   text-decoration: none;
 }
 
@@ -135,19 +140,19 @@ body {
 }
 
 .btn-like {
-  color: #e84610;
+  color: #E84610;
   border: none;
   background: transparent;
 }
 
 .btn-delete {
   color: #fff;
-  background: #e84610;
+  background: #E84610;
 }
 
 .btn-like:hover,
 .btn-like:active {
-  color: #e84610;
+  color: #E84610;
   background: transparent;
   border: none;
 }
